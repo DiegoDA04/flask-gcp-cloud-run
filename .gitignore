@@ -1,0 +1,71 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.env/
+
+# Flask logs
+instance/
+*.log
+
+# Python cache
+*.pyc
+*.pyo
+*.pyd
+
+# Editor/IDE specific files
+.vscode/
+.idea/
+*.swp
+
+# MacOS system files
+.DS_Store
+
+# Pip dependency file
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Database files
+*.sqlite3
+*.db
+
+# Environment variables
+.env
+*.env
+
+# Flask session files
+.flask_session/
+
+# Static files (optional, if generated dynamically)
+static/
+media/
+uploads/
+
+# Jupyter Notebook Checkpoints (if used)
+.ipynb_checkpoints/
+
+# Docker
+*.dockerignore
+
+# Pytest / Coverage
+.coverage
+.cache/
+.pytest_cache/
+htmlcov/
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# Gunicorn
+*.pid
+*.sock
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+*.spec
